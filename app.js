@@ -9,7 +9,7 @@ res.sendStatus(200).send("Der Server Funktioniert")
  
  })
 
- app.get('/api', (req,rea)=>{
+ app.get('/api', (req,res)=>{
        res.json([{user: 'fake', password:'fake'}])
  })
 
