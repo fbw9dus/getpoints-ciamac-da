@@ -1,9 +1,14 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express')
+var patients = require('../data/patients')
+var patientController = express.Router()
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource2');
-});
+var patientController = require ('../controllers/patientController')
 
-module.exports = router;
+
+patientRouter.get('/', patientController.patients)
+
+patientRouter.get('/:patientID', patientController.patient)
+
+patientRouter.post('/patients')
+
+module.exports = patientRouter
