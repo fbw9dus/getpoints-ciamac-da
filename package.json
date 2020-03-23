@@ -4,7 +4,7 @@
   "description": "Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.",
   "main": "jest.config.js",
   "scripts": {
-    "test": "test": "jest --runInBand"
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
