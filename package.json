@@ -25,5 +25,5 @@
     "babel-jest": "*",
     "jest": "*",
     "supertest": "^4.0.2"
-  }
+}
 }
