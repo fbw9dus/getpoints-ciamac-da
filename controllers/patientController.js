@@ -6,7 +6,7 @@ function patientsController (req,res){
 
 function patientController (req,res){
       var PatientId = req.params.id
-      var patient = patients[PatientId]
+      var patient = patients[parseInt(PatientId)-1]
       res.json(patient)
 }
 

@@ -7,8 +7,7 @@ var patientController = require ('../controllers/patientController')
 
 patientRouter.get('/', patientController.patients)
 
-patientRouter.get('/:patientID', patientController.patient)
+patientRouter.get('/:patientId', patientController.patient)
 
-patientRouter.post('/patients')
 
 module.exports = patientRouter
