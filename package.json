@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/fbw9dus/getpoints-ciamac-da#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1"
   },
   "devDependencies": {
     "@babel/core": "*",
@@ -25,5 +26,5 @@
     "babel-jest": "*",
     "jest": "*",
     "supertest": "^4.0.2"
-}
+  }
 }
