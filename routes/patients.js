@@ -1,13 +1,24 @@
-var express = require('express')
-var patients = require('../data/patients')
-var patientController = express.Router()
-
-var patientController = require ('../controllers/patientController')
+const express = require("express");
+const router = express.Router();
 
 
-patientRouter.get('/', patientController.patients)
+const {
+  getPatients,
+  getPatient,
+//   updatePatient,
+//   deletePatient,
+//   addPatient
+} = require("../controllers/patientsController");
 
-patientRouter.get('/:patientId', patientController.patient)
+router
+  .route("/")
+  .get(getPatients)
+//   .post(addPatient);
 
+router
+  .route("/:id")
+  .get(getPatient)
+//   .delete(deletePatient)
+//   .put(updatePatient);
 
-module.exports = patientRouter
+module.exports = router;
