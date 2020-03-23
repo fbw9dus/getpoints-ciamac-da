@@ -12,3 +12,4 @@ function patientController (req,res){
 
 exports.patients = patientsController
 exports.patient = patientController
+
