@@ -4,7 +4,7 @@
   "description": "Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.",
   "main": "jest.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/fbw9dus/getpoints-ciamac-da/issues"
   },
-  "homepage": "https://github.com/fbw9dus/getpoints-ciamac-da#readme"
+  "homepage": "https://github.com/fbw9dus/getpoints-ciamac-da#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*",
+    "supertest": "^4.0.2"
+}
 }
