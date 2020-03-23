@@ -1,0 +1,19 @@
+{
+  "name": "getpoints-ciamac-da",
+  "version": "1.0.0",
+  "description": "Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbw9dus/getpoints-ciamac-da.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbw9dus/getpoints-ciamac-da/issues"
+  },
+  "homepage": "https://github.com/fbw9dus/getpoints-ciamac-da#readme"
+}
